@@ -1,6 +1,7 @@
-title: zhouning blog 
+title: 周宁的个人博客 
+author: 周宁
 email: 244305150@qq.com
-phone: 123456
+phone: 15898630444 
 description: 个人博客 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com

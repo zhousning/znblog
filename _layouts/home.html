@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<!--
 <div class="home">
 
   <h1 class="page-heading">Posts</h1>
@@ -22,4 +23,17 @@ layout: default
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 
+</div>
+-->
+<div class="home-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+        {% include sidebar_left.html %}
+      </div>
+      <div class="col-md-10">
+        {% include home_content.html %}
+      </div>
+    </div>
+  </div>
 </div>

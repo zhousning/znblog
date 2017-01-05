@@ -1,0 +1,43 @@
+homes:
+  notes:
+    - { title: "Ruby", url: "http://www.cnblogs.com/znsongshu/category/910354.html", text: "Ruby NoteBook", lang: "ruby", lang-text: "Ruby" }
+    - { title: "Rails", url: "http://www.cnblogs.com/znsongshu/category/910344.html", text: "Rails NoteBook", lang: "ruby", lang-text: "Rails" }
+    - { title: "GEM", url: "http://www.cnblogs.com/znsongshu/category/911467.html", text: "GEM NoteBook", lang: "ruby", lang-text: "GEM" }
+    - { title: "HTML", url: "http://www.cnblogs.com/znsongshu/category/910347.html", text: "HTML NoteBook", lang: "html", lang-text: "HTML" }
+    - { title: "JavaScript", url: "http://www.cnblogs.com/znsongshu/category/910346.html", text: "JavaScript NoteBook", lang: "js", lang-text: "JavaScript" }
+    - { title: "JQuery", url: "http://www.cnblogs.com/znsongshu/category/910360.html", text: "JQuery NoteBook", lang: "js", lang-text: "JQuery" }
+    - { title: "CSS", url: "http://www.cnblogs.com/znsongshu/category/910348.html", text: "CSS NoteBook", lang: "css", lang-text: "CSS" }
+    - { title: "Bootstrap", url: "http://www.cnblogs.com/znsongshu/category/911382.html", text: "Bootstrap NoteBook", lang: "css", lang-text: "Bootstrap" }
+    - { title: "RichTextEditor", url: "http://www.cnblogs.com/znsongshu/category/911395.html", text: "RichTextEditor NoteBook", lang: "js", lang-text: "RichTextEditor" }
+    - { title: "KindEditor", url: "http://www.cnblogs.com/znsongshu/category/910359.html", text: "KindEditor NoteBook", lang: "js", lang-text: "KindEditor" }
+    - { title: "RegExp", url: "http://www.cnblogs.com/znsongshu/category/911396.html", text: "RegExp NoteBook", lang: "js", lang-text: "RegExp" }
+    - { title: "WeiXin", url: "http://www.cnblogs.com/znsongshu/category/911389.html", text: "WeiXin NoteBook", lang: "js", lang-text: "WeiXin" }
+    - { title: "JAVA", url: "http://www.cnblogs.com/znsongshu/category/910350.html", text: "JAVA NoteBook", lang: "java", lang-text: "JAVA" }
+    - { title: "Linux", url: "http://www.cnblogs.com/znsongshu/category/911455.html", text: "Linux NoteBook", lang: "c", lang-text: "C" }
+    - { title: "Vim", url: "http://www.cnblogs.com/znsongshu/category/911576.html", text: "Vim NoteBook", lang: "viml", lang-text: "Vim" }
+    - { title: "GitHub", url: "http://www.cnblogs.com/znsongshu/category/911380.html", text: "GitHub NoteBook", lang: "none", lang-text: "GitHub" }
+    - { title: "Cordova", url: "http://www.cnblogs.com/znsongshu/category/911589.html", text: "Cordova NoteBook", lang: "js", lang-text: "Cordova" }
+    - { title: "Ionic", url: "http://www.cnblogs.com/znsongshu/category/910352.html", text: "Ionic NoteBook", lang: "css", lang-text: "Ionic" }
+    - { title: "AngularJs", url: "http://www.cnblogs.com/znsongshu/category/910353.html", text: "AngularJs NoteBook", lang: "js", lang-text: "AngularJs" }
+    - { title: "Nodejs", url: "http://www.cnblogs.com/znsongshu/category/910357.html", text: "Nodejs NoteBook", lang: "js", lang-text: "Nodejs" }
+    - { title: "Tools", url: "http://www.cnblogs.com/znsongshu/category/911574.html", text: "Tools NoteBook", lang: "none", lang-text: "Tools" }
+    - { title: "Software Install", url: "http://www.cnblogs.com/znsongshu/category/910355.html", text: "Software Install NoteBook", lang: "none", lang-text: "Software Install" }
+    - { title: "SearchEngine", url: "http://www.cnblogs.com/znsongshu/category/911072.html", text: "SearchEngine NoteBook", lang: "none", lang-text: "SearchEngine" }
+    - { title: "Network", url: "http://www.cnblogs.com/znsongshu/category/911577.html", text: "Network NoteBook", lang: "none", lang-text: "Network" }
+  tools:
+    - { title: "人人网扒高校院系数据工具", url: "", text: "使用nokogri扒人人网高校院系数据", lang: "ruby", lang-text: "Ruby" }
+    - { title: "淘宝网宝贝关键词统计工具", url: "", text: "根据关键词查找淘宝中有多少宝贝使用了该关键词", lang: "ruby", lang-text: "Ruby" }
+    - { title: "action提取工具", url: "", text: "提取controller当中的action存到数据库当中", lang: "ruby", lang-text: "Ruby" }
+  projects:
+    - { title: "快论文", url: "", text: "www.kuai65.com非公开项目", lang: "ruby", lang-text: "Ruby" }
+    - { title: "快论文KindEditor智能编辑器", url: "", text: "非公开项目", lang: "ruby", lang-text: "Ruby" }
+    - { title: "快论文App", url: "", text: "快论文App", lang: "js", lang-text: "JavaScript" }
+    - { title: "家教呢", url: "", text: "www.jiajiaone.com非公开项目", lang: "ruby", lang-text: "Ruby" }
+    - { title: "权限管理系统", url: "", text: "配置了用户/角色/权限的权限管理系统", lang: "ruby", lang-text: "Ruby" }
+    - { title: "新志远教育官方网站", url: "", text: "www.xinzyjy.com jekyll开发", lang: "html", lang-text: "HTML" }
+    - { title: "rails项目模板", url: "", text: "配置了devise和基本页面的rails项目模板", lang: "ruby", lang-text: "Ruby" }
+    - { title: "jekyll项目模板", url: "", text: "配置了Bootstrap和JQuery的jekyll项目模板", lang: "html", lang-text: "HTML" }
+  gems:
+    - { title: "devise", url: "", text: "devise登陆注册验证", lang: "ruby", lang-text: "Ruby" }
+    - { title: "cancancan", url: "", text: "cancancan权限控制", lang: "ruby", lang-text: "Ruby" }
+    - { title: "rolify", url: "", text: "rolify角色控制", lang: "ruby", lang-text: "Ruby" }

@@ -1,0 +1,54 @@
+.color-blue {
+  color: #4078c0;
+}
+.color-grey {
+  color: #767676;
+}
+.shape-language-color {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.none-background {
+  background-color: #ffac13; 
+}
+.c-background {
+  background-color: #555555; 
+}
+.viml-background {
+  background-color: #199f4b; 
+}
+.ruby-background {
+  background-color: #701516; 
+}
+.css-background {
+  background-color: #563d7c; 
+}
+.js-background {
+  background-color: #f1e05a; 
+}
+.html-background {
+  background-color: #e44b23; 
+}
+.java-background {
+  background-color: #b07219; 
+}
+.pd-none {
+  padding: 0px !important;
+}
+.pdbtm-none {
+  padding-bottom: 0px !important;
+}
+.bd-none {
+  border: 0px !important;
+}
+.bc-white {
+  background-color: white !important;
+}
+.box-sdw-none {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
