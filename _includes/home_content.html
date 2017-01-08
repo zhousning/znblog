@@ -4,7 +4,7 @@
       <div class="panel-heading">笔记</div>
       <div class="panel-body">
         <div class="row list-group">
-          {% for data in site.data.home_data.homes.notes %}
+          {% for data in site.data.config.homes.notes %}
             <div class="item col-xs-4 col-lg-4">
               <div class="thumbnail">
                 <div class="caption pdbtm-none">
@@ -33,27 +33,29 @@
       <div class="panel-heading">小工具</div>
       <div class="panel-body">
         <div class="row list-group">
-          {% for data in site.data.home_data.homes.tools %}
+          {% for post in site.posts %}
+          {% if post.type == site.data.config.types.tool %} 
             <div class="item col-xs-4 col-lg-4">
               <div class="thumbnail">
                 <div class="caption pdbtm-none">
                   <h4 class="list-group-item-caption">
-                    <a href="{{ data.url }}" target="_blank">{{ data.title }}</a>
+                    <a href="{{ post.url | relative_url }}" target="_blank">{{ post.title }}</a>
                   </h4>
                   <p class="list-group-item-text">
-                    {{ data.text }}
+                    {{ post.text }}
                   </p>
                   <div class="row">
                     <div class="col-xs-12 col-md-6">
                       <p class="shape-language-wrapper">
-                      <span class="shape-language-color {{ data.lang }}-background"></span>
-                        {{ data.lang }}
+                      <span class="shape-language-color {{ post.lang }}-background"></span>
+                        {{ post.lang }}
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+          {% endif %}
           {% endfor %}
         </div>
       </div>
@@ -62,7 +64,7 @@
       <div class="panel-heading">项目</div>
       <div class="panel-body">
         <div class="row list-group">
-          {% for data in site.data.home_data.homes.projects %}
+          {% for data in site.data.config.homes.projects %}
             <div class="item col-xs-4 col-lg-4">
               <div class="thumbnail">
                 <div class="caption pdbtm-none">
@@ -91,7 +93,7 @@
       <div class="panel-heading">GEM中文详解</div>
       <div class="panel-body">
         <div class="row list-group">
-          {% for data in site.data.home_data.homes.gems %}
+          {% for data in site.data.config.homes.gems %}
             <div class="item col-xs-4 col-lg-4">
               <div class="thumbnail">
                 <div class="caption pdbtm-none">
