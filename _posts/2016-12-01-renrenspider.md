@@ -4,6 +4,7 @@ title: 人人网扒高校院系数据工具
 text: 使用nokogri扒人人网高校院系数据
 lang: ruby
 type: tool 
+github: https://github.com/zhousning/small-tools/tree/master/renrenspider
 categories: tools 
 ---
 

@@ -4,6 +4,7 @@ title: action提取工具
 text: 提取controller当中的action存到数据库当中
 lang: ruby
 type: tool 
+github: https://github.com/zhousning/small-tools/tree/master/drawaction
 categories: tools 
 ---
 

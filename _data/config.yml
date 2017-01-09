@@ -46,3 +46,6 @@ types:
   tool: "tool"
   project: "project"
   gem: "gem"
+status:
+  public: "public"
+  private: "private"

@@ -1,34 +1,5 @@
 <div class="row">
   <div class="col-md-12">
-    <div id="notebook-panel" class="panel panel-default">
-      <div class="panel-heading">笔记</div>
-      <div class="panel-body">
-        <div class="row list-group">
-          {% for data in site.data.config.homes.notes %}
-            <div class="item col-xs-4 col-lg-4">
-              <div class="thumbnail">
-                <div class="caption pdbtm-none">
-                  <h4 class="list-group-item-caption">
-                    <a href="{{ data.url }}" target="_blank">{{ data.title }}</a>
-                  </h4>
-                  <p class="list-group-item-text">
-                    {{ data.text }}
-                  </p>
-                  <div class="row">
-                    <div class="col-xs-12 col-md-6">
-                      <p class="shape-language-wrapper">
-                      <span class="shape-language-color {{ data.lang }}-background"></span>
-                        {{ data.lang }}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
     <div id="tools-panel"  class="panel panel-default">
       <div class="panel-heading">小工具</div>
       <div class="panel-body">
@@ -39,7 +10,7 @@
               <div class="thumbnail">
                 <div class="caption pdbtm-none">
                   <h4 class="list-group-item-caption">
-                    <a href="{{ post.url | relative_url }}" target="_blank">{{ post.title }}</a>
+                    <a href="{{ post.url | relative_url }}" >{{ post.title }}</a>
                   </h4>
                   <p class="list-group-item-text">
                     {{ post.text }}
@@ -64,27 +35,31 @@
       <div class="panel-heading">项目</div>
       <div class="panel-body">
         <div class="row list-group">
-          {% for data in site.data.config.homes.projects %}
+          {% for post in site.posts %}
+          {% if post.type == site.data.config.types.project %} 
             <div class="item col-xs-4 col-lg-4">
               <div class="thumbnail">
                 <div class="caption pdbtm-none">
                   <h4 class="list-group-item-caption">
-                    <a href="{{ data.url }}" target="_blank">{{ data.title }}</a>
+                    <a href="{{ post.url }}" >{{ post.title }}</a>
                   </h4>
                   <p class="list-group-item-text">
-                    {{ data.text }}
+                    {{ post.text }}
                   </p>
                   <div class="row">
                     <div class="col-xs-12 col-md-6">
                       <p class="shape-language-wrapper">
-                      <span class="shape-language-color {{ data.lang }}-background"></span>
-                        {{ data.lang }}
+                      <span class="shape-language-color {{ post.lang }}-background"></span>
+                        {{ post.lang }}
+                      <span class="shape-language-color {{ post.status }}-background"></span>
+                        {{ post.status }}
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+          {% endif %}
           {% endfor %}
         </div>
       </div>
@@ -93,12 +68,43 @@
       <div class="panel-heading">GEM中文详解</div>
       <div class="panel-body">
         <div class="row list-group">
-          {% for data in site.data.config.homes.gems %}
+          {% for post in site.posts %}
+          {% if post.type == site.data.config.types.gem %} 
             <div class="item col-xs-4 col-lg-4">
               <div class="thumbnail">
                 <div class="caption pdbtm-none">
                   <h4 class="list-group-item-caption">
-                    <a href="{{ data.url }}" target="_blank">{{ data.title }}</a>
+                    <a href="{{ post.url }}" >{{ post.title }}</a>
+                  </h4>
+                  <p class="list-group-item-text">
+                    {{ post.text }}
+                  </p>
+                  <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                      <p class="shape-language-wrapper">
+                      <span class="shape-language-color {{ post.lang }}-background"></span>
+                        {{ post.lang }}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div id="notebook-panel" class="panel panel-default">
+      <div class="panel-heading">笔记</div>
+      <div class="panel-body">
+        <div class="row list-group">
+          {% for data in site.data.config.homes.notes %}
+            <div class="item col-xs-4 col-lg-4">
+              <div class="thumbnail">
+                <div class="caption pdbtm-none">
+                  <h4 class="list-group-item-caption">
+                    <a href="{{ data.url }}" >{{ data.title }}</a>
                   </h4>
                   <p class="list-group-item-text">
                     {{ data.text }}

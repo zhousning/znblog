@@ -4,6 +4,7 @@ title: 淘宝网宝贝关键词统计工具
 text: 根据关键词查找淘宝中有多少宝贝使用了该关键词
 lang: ruby
 type: tool 
+github: https://github.com/zhousning/small-tools/tree/master/taobaospider
 categories: tools 
 ---
 
