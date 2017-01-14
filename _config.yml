@@ -3,9 +3,11 @@ author: 周宁
 email: 244305150@qq.com
 phone: 15898630444 
 githuburl: https://github.com/zhousning
+resumeurl: http://www.qlrc.com/company/cv/cvview?id=26813126
 description: 个人博客 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+motto: 分享改变世界
 twitter_username: jekyllrb
 github_username:  zhousning
 

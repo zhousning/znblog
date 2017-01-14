@@ -13,6 +13,8 @@ homes:
     - { title: "RegExp", url: "http://www.cnblogs.com/znsongshu/category/911396.html", text: "RegExp NoteBook", lang: "js", lang-text: "RegExp" }
     - { title: "WeiXin", url: "http://www.cnblogs.com/znsongshu/category/911389.html", text: "WeiXin NoteBook", lang: "js", lang-text: "WeiXin" }
     - { title: "JAVA", url: "http://www.cnblogs.com/znsongshu/category/910350.html", text: "JAVA NoteBook", lang: "java", lang-text: "JAVA" }
+    - { title: "Struts2", url: "http://www.cnblogs.com/znsongshu/category/937155.html", text: "Struts2 NoteBook", lang: "java", lang-text: "JAVA" }
+    - { title: "Hibernate", url: "http://www.cnblogs.com/znsongshu/category/937154.html", text: "Hibernate NoteBook", lang: "java", lang-text: "JAVA" }
     - { title: "Linux", url: "http://www.cnblogs.com/znsongshu/category/911455.html", text: "Linux NoteBook", lang: "c", lang-text: "C" }
     - { title: "Vim", url: "http://www.cnblogs.com/znsongshu/category/911576.html", text: "Vim NoteBook", lang: "viml", lang-text: "Vim" }
     - { title: "GitHub", url: "http://www.cnblogs.com/znsongshu/category/911380.html", text: "GitHub NoteBook", lang: "none", lang-text: "GitHub" }

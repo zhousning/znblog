@@ -9,7 +9,7 @@
         <ul class="contact-list">
           <li>
             {% if site.author %}
-              {{ site.author | escape }}
+              <a href="{{ site.resumeurl }}">个人简历</a></li>
             {% else %}
               {{ site.title | escape }}
             {% endif %}
@@ -35,7 +35,7 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
+        <p>{{ site.motto | escape }}</p>
       </div>
     </div>
 
